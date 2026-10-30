@@ -18,6 +18,7 @@ Modelo original de referência: `.docx` da escola, mantido fora do repositório 
 - **Configurações da turma** (professora, coordenadora, série — padrão 2º ano, cidade, fonte) começam **vazias/genéricas** e ficam no `localStorage` de quem usa.
 - **Rascunhos por criança** salvos automaticamente no navegador (salva também ao trocar de criança e ao fechar a aba).
 - **Pré-visualização A4** ao vivo.
+- **Prévia ao compartilhar** (WhatsApp etc.): meta tags Open Graph + `capa.jpg` (1200×630).
 
 ## Formatação gerada
 - A4, margens 3 cm (sup./esq.) e 2 cm (inf./dir.), fonte 12, entrelinha 1,5, recuo 1ª linha 1,25 cm, justificado, pt-BR.
