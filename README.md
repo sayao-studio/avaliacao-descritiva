@@ -4,10 +4,13 @@ Página HTML única que gera a avaliação descritiva semestral da criança em *
 
 Modelo original de referência: `.docx` da escola, mantido fora do repositório (contém dados reais de aluna — **não publicar**).
 
-## Status (26/09/2026)
+## Status (30/10/2026)
+- ✅ Publicado: https://sayao-studio.github.io/avaliacao-descritiva/ (repo `sayao-studio/avaliacao-descritiva`).
+- ✅ 220/220 verificações passando.
+
+## Status anterior (26/09/2026)
 - ✅ Pronto e testado: **220/220 verificações passando**.
 - ✅ `index.html` é autossuficiente (logo embutido em base64): dá pra mandar só esse arquivo e abrir com duplo clique (Chrome/Edge).
-- ⏳ Não publicado no GitHub Pages ainda (o usuário ia mandar só o HTML pra professora).
 - ⚠️ Não validado no **Microsoft Word** (só LibreOffice). Pedir pra professora abrir um DOCX no Word uma vez.
 
 ## Como funciona
@@ -18,7 +21,7 @@ Modelo original de referência: `.docx` da escola, mantido fora do repositório 
 - **Configurações da turma** (professora, coordenadora, série — padrão 2º ano, cidade, fonte) começam **vazias/genéricas** e ficam no `localStorage` de quem usa.
 - **Rascunhos por criança** salvos automaticamente no navegador (salva também ao trocar de criança e ao fechar a aba).
 - **Pré-visualização A4** ao vivo.
-- **Prévia ao compartilhar** (WhatsApp etc.): meta tags Open Graph + `capa.jpg` (1200×630).
+- **Prévia ao compartilhar** (WhatsApp etc.): meta tags Open Graph + `capa.jpg` (1200×630) + `icone.png` (favicon). O WhatsApp guarda a prévia por link: se sair sem foto, mande com `?v=2` no fim.
 
 ## Formatação gerada
 - A4, margens 3 cm (sup./esq.) e 2 cm (inf./dir.), fonte 12, entrelinha 1,5, recuo 1ª linha 1,25 cm, justificado, pt-BR.
